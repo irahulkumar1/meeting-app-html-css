@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meetings</title>
+    <link rel="stylesheet" href="external/normalize.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <!-- <link rel="stylesheet" href="/public/css/meetings.css"> -->
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/addMeeting.css">
+
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="active_page_heading">
+            <a href="calender.html">
+                <h2> My Meetings</h2>
+            </a>
+        </div>
+        <img class="hamburger" src="images/hamburger.png" alt="hamburger">
+        <ul class="navList">
+            <div class="left">
+                <li><a href="calender.html">Calender</a></li>
+                <li class="active"><a href="meetings.html">Meetings</a></li>
+                <li><a href="teams.html">Teams</a></li>
+            </div>
+            <div class="right">
+                <li><a href="#">Hello! irahukv@gmail.com</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </div>
+        </ul>
+    </nav>
+    <!-- Meetings  -->
+    <main class="container">
+        <h1>Meetings</h1>
+        <hr>
+        <!-- .........  -->
+        <div class="meeting_container">
+            <div class="mtng_btn">
+                <button class="filter"> <a href="meetings.html">
+                        Filter / Search meetings</a>
+                </button>
+                <button class="add_mtng"> <a href="addMeeting.html">
+                        Add a meeting</a>
+                </button>
+            </div>
+        </div>
+        <hr class="customHr">
+
+
+
+        <div class="add_meeting">
+            <h2 style="color: white;font-size: 35px;">Add a new meeting</h2>
+            <hr>
+            <p>
+                Date
+            </p>
+            <input type="date" id="date" name="date">
+            <p>Start time (hh:mm)</p>
+            <select name="hour" id="">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option>
+            </select>
+            :
+            <select name="min" id="">
+                <option value="0">0</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+
+                <option>
+            </select>
+            <p>End time (hh:mm)</p>
+            <select name="hour" id="">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option>
+            </select>
+            :
+            <select name="min" id="">
+                <option value="0">0</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+
+                <option>
+            </select>
+            <p>Description</p>
+            <textarea name="" id="" cols="40" rows="4"></textarea>
+
+            <p>Emial IDs of attendees, or team's short</p>
+            <input type="text" placeholder="joh@example.com, @annual-day, mark@example.com">
+            <p style="color: white;">Separate emailsIDs / teams short names by commas - team short names always
+                begin with @
+            </p>
+
+            <button>Add meeting</button>
+        </div>
+    </main>
+    <script src="Java/nav.js">
+    </script>
+</body>
+
+</html>

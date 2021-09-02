@@ -1,0 +1,119 @@
+.mtng_btn{
+    background-color: rgb(255, 255, 255);
+    
+}
+.filter{
+    padding: 15px 10px;
+    border: 1px solid rgb(194, 194, 194) ;
+    border-radius: 5px;
+}
+.add_mtng{
+    margin-left:-4px ;
+    padding: 13px 5px; 
+    border: none;
+    background-color: rgb(255, 255, 255);
+
+}
+.add_mtng:hover{
+    border: 1px solid rgb(177, 177, 177) ;
+}
+.add_mtng a{
+    color: rgb(76, 76, 158);
+}
+
+.filter{
+    border-bottom: white;
+}
+
+.customHr{
+    margin-top: -2px ;
+}
+.searchBox{
+    width: 100%;
+    height: auto;
+    background-color: rgb(141, 192, 221);
+    border-radius: 5px;
+}
+.searchBox h2{
+    color: white;
+    padding: 20px 0 0 15px;
+    font-size: 35px;
+}
+.searchBox option{
+    background-color:rgb(141, 192, 221);
+    width: 70%;
+    border-radius: 5px;
+}
+
+
+/* date search  */
+.date_search{
+    padding: 10px 20px ;
+}
+.date_search p{
+ margin:12px 0px;
+} 
+.date_search_dwopdown{
+    width: 100%;
+    height: 38px;
+    padding-left: 12px;
+    border-radius: 5px;
+}
+textarea{
+    width: 94%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.date_search button{
+    margin: 18px 0;
+    padding: 8px 10px ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(39, 123, 156);
+}
+
+
+/* attendees box */
+
+.attedees_box{
+    width: auto;
+    height: auto;
+    margin: 20px 0px;
+    padding: 15px 20px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+}
+.attedees_box p{
+    font-size: 20px;
+    margin:14px 0px;
+}
+.excuse_btn{
+    background-color: rgb(231, 40, 72);
+    color: white;
+    border: none;
+    padding:10px 24px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.attedees_box_dropdown{
+    padding: 7px 12px;
+    border-radius:5px ;
+}
+.add_btn{
+    background-color:rgb(93, 160, 187) ;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius:5px ;
+}
+    
+
+
+
+
+@media (min-width:600px) {
+    textarea{
+        width: 98%;
+    }
+}

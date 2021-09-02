@@ -1,0 +1,68 @@
+.cal_heading{
+margin: 1rem 0 0 0;
+display: flex;
+justify-content: space-between;
+}
+.cal_heading h3{
+    font-size: 27px;
+}
+
+.calender_selector input{
+    float: right;
+    width: 69%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.calendar-hour {
+    height: 40px;
+    margin: 2px 0;
+    background-color: rgb(141, 192, 221);
+}
+
+.calendar {
+    position: relative;
+}
+.calendar-meetings, .calendar-meetings-2{
+    position: absolute;
+    width: 96%;
+    background-color: rgb(210, 226, 248);
+    height: 40px;
+    left:2%;
+    font-size: 14px;
+}
+
+.calendar-meetings {
+    top: 210px;
+}
+.calendar-meetings-2{
+    top: 336px;
+    height: 56px;
+}
+
+.calendar-meeting, .calendar-meeting-2 p{
+    padding-left:12px ;
+}
+
+.bar{
+margin:3px 0 5px 2px;
+}
+.calendar-hours p{
+    position: absolute;
+    margin-left:-21px ;
+    font-size: 15px;
+    
+}
+
+/* Media quaries  */
+
+@media (min-width: 600px) {
+    .calender_selector input{
+        width: 100%;
+      
+       
+    }
+    .calendar-meeting {
+        width: 96%;
+    }
+    
+}
